@@ -7,6 +7,11 @@ body {
 	color: #ffffff;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 header {
   position: fixed;
   top: 20px;
@@ -24,7 +29,7 @@ footer {
   left: 20px;
 }
 
-a {
+footer a {
   color: #ffffff;
   text-decoration: none;
   margin: 0 10px 0 0;
@@ -37,7 +42,6 @@ a:hover {
 
 section {
   height: 100vh;
-  
   background-image: url(sally_1.jpg);
   background-size: cover;
   background-position: center;
