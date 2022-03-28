@@ -141,6 +141,9 @@ function sally_hart_scripts() {
 	wp_enqueue_style( 'sally-hart-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'sally-hart-style', 'rtl', 'replace' );
 
+	// RLF - load custom.css
+	wp_enqueue_style( 'sally-hart-custom',  get_template_directory_uri() . '/css/custom.css');
+
 	wp_enqueue_script( 'sally-hart-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
