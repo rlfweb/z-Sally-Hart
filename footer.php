@@ -13,7 +13,9 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
-
+			<a href="mailto:sallyhart@gmail.com">Email</a>
+			<a href="http://twitter.com/sallyhart">Twitter</a>
+  			<a href="http://instagram.com/sallyhart">Instagram</a>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
